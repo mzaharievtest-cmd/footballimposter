@@ -1,0 +1,287 @@
+{
+  "common": {
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "close": "Close",
+    "cancel": "Cancel",
+    "save": "Save",
+    "notNow": "Not now",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "goHome": "Go to home screen",
+    "unknown": "??",
+    "add": "Add",
+    "remove": "Remove",
+    "edit": "Edit",
+    "range": "Range",
+    "category": "Category",
+    "modalTitle": "Modal",
+    "player": "Player"
+  },
+
+  "languages": {
+    "english": "English",
+    "spanish": "Spanish",
+    "french": "French",
+    "german": "German",
+    "italian": "Italian",
+    "portuguese": "Portuguese",
+    "dutch": "Dutch",
+    "polish": "Polish",
+    "turkish": "Turkish",
+    "arabic": "Arabic",
+    "serbian": "Serbian",
+    "slovenian": "Slovenian"
+  },
+
+  "home": {
+    "title": "Football Imposter",
+    "tagline": "Everyone gets a football secret word. One player doesn’t.",
+    "howToPlay": "How to Play",
+    "getStarted": "Get Started",
+    "settings": "Settings"
+  },
+
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "howToPlay": "How to Play",
+    "learnRules": "Learn the rules in 30 seconds",
+    "upgrade": "Upgrade to Pro",
+    "upgradeCta": "Upgrade",
+    "unlockAll": "Unlock all categories + extra modes",
+    "rate": "Rate App",
+    "loveReview": "Love the game? Leave a review",
+    "feedback": "Send feedback",
+    "shareIdeas": "Report a bug or request a feature",
+    "appInfo": "App info",
+    "appVersion": "App version",
+    "chooseLanguage": "Choose a language"
+  },
+
+  "language": {
+    "english": "English",
+    "german": "Deutsch"
+  },
+
+  "onboarding": {
+    "skip": "Skip",
+    "pillTitle": "FOOTBALL IMPOSTER",
+    "title": "Who’s the Football Imposter?",
+    "body": "One player doesn’t know the word.\nTalk, bluff, and expose the imposter.",
+    "player1": "Player 1",
+    "player2": "Player 2",
+    "player3": "Player 3"
+  },
+
+  "onboarding2": {
+    "title": "Same Word Mode",
+    "categoryPlayers": "Category: Players",
+    "wordExample": "Messi",
+    "hint": "Talk. Question. Vote.",
+    "unknownWord": "??"
+  },
+
+  "onboarding3": {
+    "title": "Similar Word Mode",
+    "categoryPlayers": "Category: Players",
+    "wordSame": "Messi",
+    "wordSimilar": "Ronaldo",
+    "hint": "Similar word. Harder to catch.",
+    "startGame": "Start Game"
+  },
+
+  "setup": {
+    "title": "Setup",
+    "howManyPlayers": "How many\nplayers?",
+    "howManyImposters": "How many\nimposters?",
+    "categoriesTitle": "Choose categories",
+    "startGame": "Start game",
+    "gameMode": "Game mode",
+    "showCategoryToImposter": "Show category to imposters",
+    "selectCategories": "Select at least one category",
+    "allCategories": "All categories",
+    "categories": "Categories",
+    "alert": {
+      "selectCategoryTitle": "Select a category",
+      "selectCategoryBody": "Pick at least one category to start the game."
+    },
+    "mode": {
+      "same": {
+        "title": "Same word",
+        "desc": "Everyone knows the word. The imposters don't."
+      },
+      "similar": {
+        "title": "Similar word",
+        "desc": "Everyone knows the word. The imposters' word is different."
+      }
+    }
+  },
+
+  "players": {
+    "title": "Players",
+    "player": "Player",
+    "countLabel": "Players",
+    "namePlaceholder": "Player name"
+  },
+
+  "categories": {
+    "title": "Categories",
+    "selected": "Selected",
+    "all": "All",
+    "none": "None",
+    "premiumLabel": "Premium",
+
+    "activePlayers": "Active Players",
+    "plPlayers": "Premier League Players",
+    "legends": "Legends",
+    "clubs": "Clubs",
+    "managers": "Managers",
+    "stadiums": "Stadiums",
+    "referees": "Referees",
+    "nationalTeams": "National Teams",
+    "leagues": "Leagues",
+    "iconicMoments": "Iconic Moments",
+
+    "free": {
+      "restore": "Restore purchase",
+      "playingWith": "Free: playing with",
+      "of": "of",
+      "items": "items",
+      "proUnlocksAll": "Pro unlocks all items in this category.",
+      "openingPurchase": "Opening purchase…",
+      "unlockPro": "Unlock Pro",
+      "storeNotConnectedHint": "Store not connected. Please try again later."
+    },
+
+    "pro": {
+      "active": "Pro is active"
+    }
+  },
+
+  "imposters": {
+    "title": "Imposters",
+    "random": {
+      "title": "Random imposters",
+      "range": "",
+      "desc": "Imposters are chosen randomly."
+    },
+    "neverFirst": {
+      "title": "Safer first round",
+      "desc": "Imposter never first"
+    },
+    "note": {
+      "randomPrefix": "",
+      "randomSuffix": "",
+      "manualPrefix": "",
+      "manualSuffix": "based on",
+      "players": "players"
+    }
+  },
+
+  "game": {
+    "playersTitle": "Players",
+    "tapNameInstruction": "Tap your name, see your word, then pass the phone.",
+    "startingPlayer": "Starting player",
+    "voting": "Voting",
+    "imposter": "IMPOSTER"
+  },
+
+  "pass": {
+    "title": "Pass the phone",
+    "progress": "Player {{seat}} of {{playersCount}}",
+    "whenReady": "When Player {{seat}} is ready, tap Reveal.",
+    "tapNext": "Tap Next and pass the phone to the next player.",
+    "reveal": "Reveal",
+    "nextPlayer": "Next player",
+    "finish": "Finish"
+  },
+
+  "reveal": {
+    "title": "Reveal",
+    "secretWord": "Secret word",
+    "hidden": "Hidden",
+    "tapToReveal": "Tap to reveal",
+    "makeSureNoOnesWatching": "Make sure nobody’s watching",
+    "gotIt": "Got it!",
+    "categoryPrefix": "Category:"
+  },
+
+  "voting": {
+    "title": "Voting",
+    "howToVote": "How to Vote",
+    "revealResults": "Reveal Results",
+    "tip": "Tip: Keep answers vague - don't give the word away.",
+
+    "step1": {
+      "title": "Starting Player",
+      "desc": "{{startingLabel}} starts the round."
+    },
+    "step2": {
+      "title": "Group Discussion",
+      "desc": "Take turns clockwise."
+    },
+    "step3": {
+      "title": "Vote Time",
+      "desc": "Each player gives one clue. Go around 2–3 times."
+    },
+    "step4": {
+      "title": "Reveal Phase",
+      "desc": "Vote for the imposters and reveal the results."
+    }
+  },
+
+  "results": {
+    "title": "Results",
+    "notSet": "Not set",
+    "imposterWas": "THE IMPOSTER WAS",
+    "impostersWere": "THE IMPOSTERS WERE",
+    "secretWord": "SECRET WORD",
+    "playAgain": "Play Again"
+  },
+
+  "billing": {
+    "unlockPro": "Unlock Pro",
+    "categoryAccess": "Category access",
+    "proUnlocksAll": "Pro unlocks all items in all categories. One-time purchase.",
+    "freeVersion": "Free version: {{freeCount}} of {{total}}",
+    "proActive": "Pro is active"
+  },
+
+  "paywall": {
+    "heroTitle": "Unlock Every Category",
+    "heroSubtitle": "Active Players is free forever. Go Premium to play all categories.",
+    "featureAllCategories": "All categories, fully unlocked",
+    "featureUnlimited": "Unlimited rounds & replays",
+    "featureSupport": "Support future updates",
+    "weeklyTitle": "Weekly",
+    "weeklyPeriod": "/ week",
+    "lifetimeTitle": "Lifetime",
+    "lifetimePeriod": "one-time",
+    "bestValue": "BEST VALUE",
+    "continue": "Continue",
+    "continueWithPrice": "Continue — {{price}}",
+    "restorePurchases": "Restore Purchases",
+    "restoring": "Restoring…",
+    "legal": "Weekly auto-renews until cancelled. Lifetime is a one-time payment. Manage or cancel anytime in your store account settings.",
+    "restoredTitle": "Purchase Restored",
+    "restoredBody": "Your premium access has been restored.",
+    "restoreNoneTitle": "Nothing to Restore",
+    "restoreNoneBody": "We couldn't find a previous purchase for this account.",
+    "restoreErrorTitle": "Restore Failed",
+    "restoreErrorBody": "Something went wrong while restoring your purchase. Please try again.",
+    "purchaseErrorTitle": "Purchase Failed",
+    "purchaseErrorBody": "We couldn't complete your purchase. Please try again."
+  },
+
+  "dev": {
+    "resetToFree": "Reset to free",
+    "clearEntitlement": "Clear entitlement",
+    "storekitResetTip": "Tip: On iOS Simulator, you can reset StoreKit purchases in Settings."
+  }
+}

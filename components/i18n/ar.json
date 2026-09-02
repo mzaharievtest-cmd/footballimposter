@@ -1,0 +1,260 @@
+{
+  "common": {
+    "continue": "متابعة",
+    "back": "رجوع",
+    "next": "التالي",
+    "done": "تم",
+    "close": "إغلاق",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "notNow": "ليس الآن",
+    "ok": "حسنًا",
+    "yes": "نعم",
+    "no": "لا",
+    "loading": "جارٍ التحميل…",
+    "error": "حدث خطأ ما",
+    "goHome": "العودة إلى الشاشة الرئيسية",
+    "unknown": "؟؟",
+    "add": "إضافة",
+    "remove": "إزالة",
+    "edit": "تعديل",
+    "range": "نطاق",
+    "category": "الفئة",
+    "modalTitle": "نافذة",
+    "player": "لاعب"
+  },
+
+  "languages": {
+    "english": "الإنجليزية",
+    "spanish": "الإسبانية",
+    "french": "الفرنسية",
+    "german": "الألمانية",
+    "italian": "الإيطالية",
+    "portuguese": "البرتغالية",
+    "dutch": "الهولندية",
+    "polish": "البولندية",
+    "turkish": "التركية",
+    "arabic": "العربية",
+    "serbian": "الصربية",
+    "slovenian": "السلوفينية"
+  },
+
+  "home": {
+    "title": "Football Imposter",
+    "tagline": "الجميع يحصل على كلمة سرية لكرة القدم. لاعب واحد لا.",
+    "howToPlay": "طريقة اللعب",
+    "getStarted": "ابدأ",
+    "settings": "الإعدادات"
+  },
+
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "howToPlay": "طريقة اللعب",
+    "learnRules": "تعلّم القواعد في 30 ثانية",
+    "upgrade": "الترقية إلى Pro",
+    "upgradeCta": "ترقية",
+    "unlockAll": "فتح جميع الفئات + أوضاع إضافية",
+    "rate": "قيّم التطبيق",
+    "loveReview": "أعجبك اللعب؟ اترك تقييمًا",
+    "feedback": "إرسال ملاحظات",
+    "shareIdeas": "الإبلاغ عن خطأ أو اقتراح ميزة",
+    "appInfo": "معلومات التطبيق",
+    "appVersion": "إصدار التطبيق",
+    "chooseLanguage": "اختر اللغة"
+  },
+
+  "language": {
+    "english": "English",
+    "german": "Deutsch"
+  },
+
+  "onboarding": {
+    "skip": "تخطي",
+    "pillTitle": "FOOTBALL IMPOSTER",
+    "title": "من هو المحتال في كرة القدم؟",
+    "body": "لاعب واحد لا يعرف الكلمة.\nتحدث، خدع، واكشف المحتال.",
+    "player1": "لاعب 1",
+    "player2": "لاعب 2",
+    "player3": "لاعب 3"
+  },
+
+  "onboarding2": {
+    "title": "وضع الكلمة الواحدة",
+    "categoryPlayers": "الفئة: اللاعبون",
+    "wordExample": "ميسي",
+    "hint": "تحدث. اسأل. صوّت.",
+    "unknownWord": "؟؟"
+  },
+
+  "onboarding3": {
+    "title": "وضع الكلمات المتشابهة",
+    "categoryPlayers": "الفئة: اللاعبون",
+    "wordSame": "ميسي",
+    "wordSimilar": "رونالدو",
+    "hint": "كلمة مشابهة. أصعب في الاكتشاف.",
+    "startGame": "ابدأ اللعبة"
+  },
+
+  "setup": {
+    "title": "الإعداد",
+    "howManyPlayers": "كم عدد\nاللاعبين؟",
+    "howManyImposters": "كم عدد\nالمحتالين؟",
+    "categoriesTitle": "اختر الفئات",
+    "startGame": "ابدأ اللعبة",
+    "gameMode": "وضع اللعبة",
+    "showCategoryToImposter": "إظهار الفئة للمحتالين",
+    "selectCategories": "اختر فئة واحدة على الأقل",
+    "allCategories": "جميع الفئات",
+    "categories": "الفئات",
+    "alert": {
+      "selectCategoryTitle": "اختر فئة",
+      "selectCategoryBody": "يجب اختيار فئة واحدة على الأقل لبدء اللعبة."
+    },
+    "mode": {
+      "same": {
+        "title": "نفس الكلمة",
+        "desc": "الجميع يعرف الكلمة. المحتالون لا."
+      },
+      "similar": {
+        "title": "كلمة مشابهة",
+        "desc": "الجميع يعرف الكلمة. كلمة المحتالين مختلفة."
+      }
+    }
+  },
+
+  "players": {
+    "title": "اللاعبون",
+    "player": "لاعب",
+    "countLabel": "اللاعبون",
+    "namePlaceholder": "اسم اللاعب"
+  },
+
+  "categories": {
+    "title": "الفئات",
+    "selected": "المحددة",
+    "all": "الكل",
+    "none": "لا شيء",
+
+    "activePlayers": "اللاعبون النشطون",
+    "plPlayers": "لاعبو الدوري الإنجليزي",
+    "legends": "الأساطير",
+    "clubs": "الأندية",
+    "managers": "المدربون",
+    "stadiums": "الملاعب",
+    "referees": "الحكام",
+    "nationalTeams": "المنتخبات الوطنية",
+    "leagues": "الدوريات",
+    "iconicMoments": "لحظات أيقونية",
+
+    "free": {
+      "restore": "استعادة الشراء",
+      "playingWith": "مجاني: تلعب بـ",
+      "of": "من",
+      "items": "عناصر",
+      "proUnlocksAll": "نسخة Pro تفتح جميع العناصر في هذه الفئة.",
+      "openingPurchase": "جارٍ فتح الشراء…",
+      "unlockPro": "فتح Pro",
+      "storeNotConnectedHint": "المتجر غير متصل. حاول لاحقًا."
+    },
+
+    "pro": {
+      "active": "Pro مفعّل"
+    }
+  },
+
+  "imposters": {
+    "title": "المحتالون",
+    "random": {
+      "title": "محتالون عشوائيون",
+      "range": "",
+      "desc": "يتم اختيار المحتالين عشوائيًا."
+    },
+    "neverFirst": {
+      "title": "جولة أولى أكثر أمانًا",
+      "desc": "المحتال لا يكون أول لاعب"
+    },
+    "note": {
+      "randomPrefix": "",
+      "randomSuffix": "",
+      "manualPrefix": "",
+      "manualSuffix": "بناءً على",
+      "players": "اللاعبين"
+    }
+  },
+
+  "game": {
+    "playersTitle": "اللاعبون",
+    "tapNameInstruction": "اضغط على اسمك لرؤية كلمتك ثم مرر الهاتف.",
+    "startingPlayer": "اللاعب الذي يبدأ",
+    "voting": "التصويت",
+    "imposter": "محتال"
+  },
+
+  "pass": {
+    "title": "مرّر الهاتف",
+    "progress": "اللاعب {{seat}} من {{playersCount}}",
+    "whenReady": "عندما يكون اللاعب {{seat}} جاهزًا، اضغط كشف.",
+    "tapNext": "اضغط التالي ومرّر الهاتف للاعب التالي.",
+    "reveal": "كشف",
+    "nextPlayer": "اللاعب التالي",
+    "finish": "إنهاء"
+  },
+
+  "reveal": {
+    "title": "كشف",
+    "secretWord": "الكلمة السرية",
+    "hidden": "مخفي",
+    "tapToReveal": "اضغط للكشف",
+    "makeSureNoOnesWatching": "تأكد أن لا أحد ينظر",
+    "gotIt": "فهمت!",
+    "categoryPrefix": "الفئة:"
+  },
+
+  "voting": {
+    "title": "التصويت",
+    "howToVote": "طريقة التصويت",
+    "revealResults": "كشف النتائج",
+    "tip": "نصيحة: كن غامضًا — لا تكشف الكلمة.",
+
+    "step1": {
+      "title": "اللاعب البادئ",
+      "desc": "{{startingLabel}} يبدأ الجولة."
+    },
+    "step2": {
+      "title": "نقاش جماعي",
+      "desc": "تحدثوا بالتناوب مع عقارب الساعة."
+    },
+    "step3": {
+      "title": "وقت التصويت",
+      "desc": "كل لاعب يعطي تلميحًا. كرروا 2–3 مرات."
+    },
+    "step4": {
+      "title": "مرحلة الكشف",
+      "desc": "صوّتوا على المحتالين وكشفوا النتائج."
+    }
+  },
+
+  "results": {
+    "title": "النتائج",
+    "notSet": "غير محدد",
+    "imposterWas": "المحتال كان",
+    "impostersWere": "المحتالون كانوا",
+    "secretWord": "الكلمة السرية",
+    "playAgain": "العب مرة أخرى"
+  },
+
+  "billing": {
+    "unlockPro": "فتح Pro",
+    "categoryAccess": "الوصول إلى الفئات",
+    "proUnlocksAll": "Pro يفتح جميع العناصر في جميع الفئات. شراء لمرة واحدة.",
+    "freeVersion": "النسخة المجانية: {{freeCount}} من {{total}}",
+    "proActive": "Pro مفعّل"
+  },
+
+  "dev": {
+    "resetToFree": "إعادة التعيين إلى المجاني",
+    "clearEntitlement": "مسح الصلاحيات",
+    "storekitResetTip": "ملاحظة: في محاكي iOS يمكنك إعادة تعيين مشتريات StoreKit من الإعدادات."
+  }
+}

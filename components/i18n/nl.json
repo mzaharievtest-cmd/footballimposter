@@ -1,0 +1,260 @@
+{
+  "common": {
+    "continue": "Doorgaan",
+    "back": "Terug",
+    "next": "Volgende",
+    "done": "Klaar",
+    "close": "Sluiten",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "notNow": "Niet nu",
+    "ok": "OK",
+    "yes": "Ja",
+    "no": "Nee",
+    "loading": "Laden…",
+    "error": "Er is iets misgegaan",
+    "goHome": "Ga naar het startscherm",
+    "unknown": "??",
+    "add": "Toevoegen",
+    "remove": "Verwijderen",
+    "edit": "Bewerken",
+    "range": "Bereik",
+    "category": "Categorie",
+    "modalTitle": "Venster",
+    "player": "Speler"
+  },
+
+  "languages": {
+    "english": "Engels",
+    "spanish": "Spaans",
+    "french": "Frans",
+    "german": "Duits",
+    "italian": "Italiaans",
+    "portuguese": "Portugees",
+    "dutch": "Nederlands",
+    "polish": "Pools",
+    "turkish": "Turks",
+    "arabic": "Arabisch",
+    "serbian": "Servisch",
+    "slovenian": "Sloveens"
+  },
+
+  "home": {
+    "title": "Football Imposter",
+    "tagline": "Iedereen krijgt een geheim voetbalwoord. Eén speler niet.",
+    "howToPlay": "Hoe speel je",
+    "getStarted": "Beginnen",
+    "settings": "Instellingen"
+  },
+
+  "settings": {
+    "title": "Instellingen",
+    "language": "Taal",
+    "howToPlay": "Hoe speel je",
+    "learnRules": "Leer de regels in 30 seconden",
+    "upgrade": "Upgrade naar Pro",
+    "upgradeCta": "Upgraden",
+    "unlockAll": "Ontgrendel alle categorieën + extra modi",
+    "rate": "App beoordelen",
+    "loveReview": "Vind je het spel leuk? Laat een review achter",
+    "feedback": "Feedback sturen",
+    "shareIdeas": "Meld een bug of stel een functie voor",
+    "appInfo": "App-info",
+    "appVersion": "App-versie",
+    "chooseLanguage": "Kies een taal"
+  },
+
+  "language": {
+    "english": "English",
+    "german": "Deutsch"
+  },
+
+  "onboarding": {
+    "skip": "Overslaan",
+    "pillTitle": "FOOTBALL IMPOSTER",
+    "title": "Wie is de Football Imposter?",
+    "body": "Eén speler kent het woord niet.\nPraat, bluf en ontmasker de imposter.",
+    "player1": "Speler 1",
+    "player2": "Speler 2",
+    "player3": "Speler 3"
+  },
+
+  "onboarding2": {
+    "title": "Zelfde-woord-modus",
+    "categoryPlayers": "Categorie: Spelers",
+    "wordExample": "Messi",
+    "hint": "Praat. Stel vragen. Stem.",
+    "unknownWord": "??"
+  },
+
+  "onboarding3": {
+    "title": "Vergelijkbaar-woord-modus",
+    "categoryPlayers": "Categorie: Spelers",
+    "wordSame": "Messi",
+    "wordSimilar": "Ronaldo",
+    "hint": "Vergelijkbaar woord. Moeilijker te raden.",
+    "startGame": "Start spel"
+  },
+
+  "setup": {
+    "title": "Instellen",
+    "howManyPlayers": "Hoeveel\nspelers?",
+    "howManyImposters": "Hoeveel\nimposters?",
+    "categoriesTitle": "Kies categorieën",
+    "startGame": "Start spel",
+    "gameMode": "Spelmodus",
+    "showCategoryToImposter": "Toon categorie aan imposters",
+    "selectCategories": "Selecteer minstens één categorie",
+    "allCategories": "Alle categorieën",
+    "categories": "Categorieën",
+    "alert": {
+      "selectCategoryTitle": "Selecteer een categorie",
+      "selectCategoryBody": "Kies minstens één categorie om het spel te starten."
+    },
+    "mode": {
+      "same": {
+        "title": "Zelfde woord",
+        "desc": "Iedereen kent het woord. De imposters niet."
+      },
+      "similar": {
+        "title": "Vergelijkbaar woord",
+        "desc": "Iedereen kent het woord. De imposters hebben een ander."
+      }
+    }
+  },
+
+  "players": {
+    "title": "Spelers",
+    "player": "Speler",
+    "countLabel": "Spelers",
+    "namePlaceholder": "Naam van speler"
+  },
+
+  "categories": {
+    "title": "Categorieën",
+    "selected": "Geselecteerd",
+    "all": "Alles",
+    "none": "Geen",
+
+    "activePlayers": "Actieve spelers",
+    "plPlayers": "Premier League-spelers",
+    "legends": "Legendes",
+    "clubs": "Clubs",
+    "managers": "Trainers",
+    "stadiums": "Stadions",
+    "referees": "Scheidsrechters",
+    "nationalTeams": "Nationale teams",
+    "leagues": "Competities",
+    "iconicMoments": "Iconische momenten",
+
+    "free": {
+      "restore": "Aankoop herstellen",
+      "playingWith": "Gratis: spelen met",
+      "of": "van",
+      "items": "items",
+      "proUnlocksAll": "Pro ontgrendelt alle items in deze categorie.",
+      "openingPurchase": "Aankoop openen…",
+      "unlockPro": "Ontgrendel Pro",
+      "storeNotConnectedHint": "Winkel niet verbonden. Probeer het later opnieuw."
+    },
+
+    "pro": {
+      "active": "Pro is actief"
+    }
+  },
+
+  "imposters": {
+    "title": "Imposters",
+    "random": {
+      "title": "Willekeurige imposters",
+      "range": "",
+      "desc": "Imposters worden willekeurig gekozen."
+    },
+    "neverFirst": {
+      "title": "Veilige eerste ronde",
+      "desc": "Imposter begint nooit"
+    },
+    "note": {
+      "randomPrefix": "",
+      "randomSuffix": "",
+      "manualPrefix": "",
+      "manualSuffix": "op basis van",
+      "players": "spelers"
+    }
+  },
+
+  "game": {
+    "playersTitle": "Spelers",
+    "tapNameInstruction": "Tik op je naam, bekijk je woord en geef de telefoon door.",
+    "startingPlayer": "Startende speler",
+    "voting": "Stemmen",
+    "imposter": "IMPOSTER"
+  },
+
+  "pass": {
+    "title": "Geef de telefoon door",
+    "progress": "Speler {{seat}} van {{playersCount}}",
+    "whenReady": "Wanneer Speler {{seat}} klaar is, tik op Onthullen.",
+    "tapNext": "Tik op Volgende en geef de telefoon door aan de volgende speler.",
+    "reveal": "Onthullen",
+    "nextPlayer": "Volgende speler",
+    "finish": "Afronden"
+  },
+
+  "reveal": {
+    "title": "Onthullen",
+    "secretWord": "Geheim woord",
+    "hidden": "Verborgen",
+    "tapToReveal": "Tik om te onthullen",
+    "makeSureNoOnesWatching": "Zorg dat niemand meekijkt",
+    "gotIt": "Begrepen!",
+    "categoryPrefix": "Categorie:"
+  },
+
+  "voting": {
+    "title": "Stemmen",
+    "howToVote": "Hoe stemmen",
+    "revealResults": "Resultaten onthullen",
+    "tip": "Tip: houd antwoorden vaag — verklap het woord niet.",
+
+    "step1": {
+      "title": "Startende speler",
+      "desc": "{{startingLabel}} begint de ronde."
+    },
+    "step2": {
+      "title": "Groepsdiscussie",
+      "desc": "Om de beurt met de klok mee."
+    },
+    "step3": {
+      "title": "Tijd om te stemmen",
+      "desc": "Elke speler geeft één aanwijzing. Ga 2–3 rondes."
+    },
+    "step4": {
+      "title": "Onthulfase",
+      "desc": "Stem op de imposters en onthul de resultaten."
+    }
+  },
+
+  "results": {
+    "title": "Resultaten",
+    "notSet": "Niet ingesteld",
+    "imposterWas": "DE IMPOSTER WAS",
+    "impostersWere": "DE IMPOSTERS WAREN",
+    "secretWord": "GEHEIM WOORD",
+    "playAgain": "Opnieuw spelen"
+  },
+
+  "billing": {
+    "unlockPro": "Ontgrendel Pro",
+    "categoryAccess": "Categorie-toegang",
+    "proUnlocksAll": "Pro ontgrendelt alle items in alle categorieën. Eenmalige aankoop.",
+    "freeVersion": "Gratis versie: {{freeCount}} van {{total}}",
+    "proActive": "Pro is actief"
+  },
+
+  "dev": {
+    "resetToFree": "Reset naar gratis",
+    "clearEntitlement": "Rechten wissen",
+    "storekitResetTip": "Tip: in de iOS-simulator kun je StoreKit-aankopen resetten via Instellingen."
+  }
+}

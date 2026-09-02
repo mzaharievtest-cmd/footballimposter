@@ -1,0 +1,260 @@
+{
+  "common": {
+    "continue": "Nastavi",
+    "back": "Nazad",
+    "next": "Dalje",
+    "done": "Gotovo",
+    "close": "Zatvori",
+    "cancel": "Otkaži",
+    "save": "Sačuvaj",
+    "notNow": "Ne sada",
+    "ok": "OK",
+    "yes": "Da",
+    "no": "Ne",
+    "loading": "Učitavanje…",
+    "error": "Nešto je pošlo po zlu",
+    "goHome": "Idi na početni ekran",
+    "unknown": "??",
+    "add": "Dodaj",
+    "remove": "Ukloni",
+    "edit": "Izmeni",
+    "range": "Opseg",
+    "category": "Kategorija",
+    "modalTitle": "Prozor",
+    "player": "Igrač"
+  },
+
+  "languages": {
+    "english": "Engleski",
+    "spanish": "Španski",
+    "french": "Francuski",
+    "german": "Nemački",
+    "italian": "Italijanski",
+    "portuguese": "Portugalski",
+    "dutch": "Holandski",
+    "polish": "Poljski",
+    "turkish": "Turski",
+    "arabic": "Arapski",
+    "serbian": "Srpski",
+    "slovenian": "Slovenački"
+  },
+
+  "home": {
+    "title": "Football Imposter",
+    "tagline": "Svi dobijaju tajnu fudbalsku reč. Jedan igrač ne.",
+    "howToPlay": "Kako se igra",
+    "getStarted": "Započni",
+    "settings": "Podešavanja"
+  },
+
+  "settings": {
+    "title": "Podešavanja",
+    "language": "Jezik",
+    "howToPlay": "Kako se igra",
+    "learnRules": "Nauči pravila za 30 sekundi",
+    "upgrade": "Pređi na Pro",
+    "upgradeCta": "Nadogradi",
+    "unlockAll": "Otključaj sve kategorije + dodatne modove",
+    "rate": "Oceni aplikaciju",
+    "loveReview": "Sviđa ti se igra? Ostavi recenziju",
+    "feedback": "Pošalji povratnu informaciju",
+    "shareIdeas": "Prijavi grešku ili predloži funkciju",
+    "appInfo": "Informacije o aplikaciji",
+    "appVersion": "Verzija aplikacije",
+    "chooseLanguage": "Izaberi jezik"
+  },
+
+  "language": {
+    "english": "English",
+    "german": "Deutsch"
+  },
+
+  "onboarding": {
+    "skip": "Preskoči",
+    "pillTitle": "FOOTBALL IMPOSTER",
+    "title": "Ko je Football Imposter?",
+    "body": "Jedan igrač ne zna reč.\nPričaj, blefiraj i otkrij impostera.",
+    "player1": "Igrač 1",
+    "player2": "Igrač 2",
+    "player3": "Igrač 3"
+  },
+
+  "onboarding2": {
+    "title": "Mod iste reči",
+    "categoryPlayers": "Kategorija: Igrači",
+    "wordExample": "Messi",
+    "hint": "Pričaj. Postavljaj pitanja. Glasaj.",
+    "unknownWord": "??"
+  },
+
+  "onboarding3": {
+    "title": "Mod slične reči",
+    "categoryPlayers": "Kategorija: Igrači",
+    "wordSame": "Messi",
+    "wordSimilar": "Ronaldo",
+    "hint": "Slična reč. Teže za otkrivanje.",
+    "startGame": "Započni igru"
+  },
+
+  "setup": {
+    "title": "Podešavanje",
+    "howManyPlayers": "Koliko\nigrača?",
+    "howManyImposters": "Koliko\nimpostera?",
+    "categoriesTitle": "Izaberi kategorije",
+    "startGame": "Započni igru",
+    "gameMode": "Mod igre",
+    "showCategoryToImposter": "Prikaži kategoriju impostorima",
+    "selectCategories": "Izaberi bar jednu kategoriju",
+    "allCategories": "Sve kategorije",
+    "categories": "Kategorije",
+    "alert": {
+      "selectCategoryTitle": "Izaberi kategoriju",
+      "selectCategoryBody": "Izaberi bar jednu kategoriju da bi započeo igru."
+    },
+    "mode": {
+      "same": {
+        "title": "Ista reč",
+        "desc": "Svi znaju reč. Imposteri ne."
+      },
+      "similar": {
+        "title": "Slična reč",
+        "desc": "Svi znaju reč. Reč impostera je drugačija."
+      }
+    }
+  },
+
+  "players": {
+    "title": "Igrači",
+    "player": "Igrač",
+    "countLabel": "Igrači",
+    "namePlaceholder": "Ime igrača"
+  },
+
+  "categories": {
+    "title": "Kategorije",
+    "selected": "Izabrano",
+    "all": "Sve",
+    "none": "Ništa",
+
+    "activePlayers": "Aktivni igrači",
+    "plPlayers": "Premier League igrači",
+    "legends": "Legende",
+    "clubs": "Klubovi",
+    "managers": "Treneri",
+    "stadiums": "Stadioni",
+    "referees": "Sudije",
+    "nationalTeams": "Reprezentacije",
+    "leagues": "Lige",
+    "iconicMoments": "Ikonični momenti",
+
+    "free": {
+      "restore": "Vrati kupovinu",
+      "playingWith": "Besplatno: igranje sa",
+      "of": "od",
+      "items": "stavki",
+      "proUnlocksAll": "Pro otključava sve stavke u ovoj kategoriji.",
+      "openingPurchase": "Otvaranje kupovine…",
+      "unlockPro": "Otključaj Pro",
+      "storeNotConnectedHint": "Prodavnica nije povezana. Pokušaj kasnije."
+    },
+
+    "pro": {
+      "active": "Pro je aktivan"
+    }
+  },
+
+  "imposters": {
+    "title": "Imposteri",
+    "random": {
+      "title": "Nasumični imposteri",
+      "range": "",
+      "desc": "Imposteri se biraju nasumično."
+    },
+    "neverFirst": {
+      "title": "Sigurnija prva runda",
+      "desc": "Imposter nikada ne počinje"
+    },
+    "note": {
+      "randomPrefix": "",
+      "randomSuffix": "",
+      "manualPrefix": "",
+      "manualSuffix": "na osnovu",
+      "players": "igrača"
+    }
+  },
+
+  "game": {
+    "playersTitle": "Igrači",
+    "tapNameInstruction": "Dodirni svoje ime, vidi reč i prosledi telefon.",
+    "startingPlayer": "Početni igrač",
+    "voting": "Glasanje",
+    "imposter": "IMPOSTER"
+  },
+
+  "pass": {
+    "title": "Prosledi telefon",
+    "progress": "Igrač {{seat}} od {{playersCount}}",
+    "whenReady": "Kada je Igrač {{seat}} spreman, dodirni Otkrij.",
+    "tapNext": "Dodirni Dalje i prosledi telefon sledećem igraču.",
+    "reveal": "Otkrij",
+    "nextPlayer": "Sledeći igrač",
+    "finish": "Završi"
+  },
+
+  "reveal": {
+    "title": "Otkrij",
+    "secretWord": "Tajna reč",
+    "hidden": "Sakriveno",
+    "tapToReveal": "Dodirni da otkriješ",
+    "makeSureNoOnesWatching": "Uveri se da niko ne gleda",
+    "gotIt": "Razumem!",
+    "categoryPrefix": "Kategorija:"
+  },
+
+  "voting": {
+    "title": "Glasanje",
+    "howToVote": "Kako glasati",
+    "revealResults": "Otkrij rezultate",
+    "tip": "Savet: odgovaraj neodređeno — ne otkrivaj reč.",
+
+    "step1": {
+      "title": "Početni igrač",
+      "desc": "{{startingLabel}} započinje rundu."
+    },
+    "step2": {
+      "title": "Grupna diskusija",
+      "desc": "Naizmenično u smeru kazaljke na satu."
+    },
+    "step3": {
+      "title": "Vreme za glasanje",
+      "desc": "Svaki igrač daje jednu naznaku. Prođite 2–3 kruga."
+    },
+    "step4": {
+      "title": "Faza otkrivanja",
+      "desc": "Glasajte za impostere i otkrijte rezultate."
+    }
+  },
+
+  "results": {
+    "title": "Rezultati",
+    "notSet": "Nije postavljeno",
+    "imposterWas": "IMPOSTER JE BIO",
+    "impostersWere": "IMPOSTERI SU BILI",
+    "secretWord": "TAJNA REČ",
+    "playAgain": "Igraj ponovo"
+  },
+
+  "billing": {
+    "unlockPro": "Otključaj Pro",
+    "categoryAccess": "Pristup kategorijama",
+    "proUnlocksAll": "Pro otključava sve stavke u svim kategorijama. Jednokratna kupovina.",
+    "freeVersion": "Besplatna verzija: {{freeCount}} od {{total}}",
+    "proActive": "Pro je aktivan"
+  },
+
+  "dev": {
+    "resetToFree": "Vrati na besplatno",
+    "clearEntitlement": "Obriši prava",
+    "storekitResetTip": "Savet: u iOS Simulatoru možeš resetovati StoreKit kupovine u Podešavanjima."
+  }
+}

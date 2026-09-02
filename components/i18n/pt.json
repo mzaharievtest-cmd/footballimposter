@@ -1,0 +1,260 @@
+{
+  "common": {
+    "continue": "Continuar",
+    "back": "Voltar",
+    "next": "Seguinte",
+    "done": "Concluído",
+    "close": "Fechar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "notNow": "Agora não",
+    "ok": "OK",
+    "yes": "Sim",
+    "no": "Não",
+    "loading": "A carregar…",
+    "error": "Algo correu mal",
+    "goHome": "Ir para o ecrã inicial",
+    "unknown": "??",
+    "add": "Adicionar",
+    "remove": "Remover",
+    "edit": "Editar",
+    "range": "Intervalo",
+    "category": "Categoria",
+    "modalTitle": "Modal",
+    "player": "Jogador"
+  },
+
+  "languages": {
+    "english": "Inglês",
+    "spanish": "Espanhol",
+    "french": "Francês",
+    "german": "Alemão",
+    "italian": "Italiano",
+    "portuguese": "Português",
+    "dutch": "Neerlandês",
+    "polish": "Polaco",
+    "turkish": "Turco",
+    "arabic": "Árabe",
+    "serbian": "Sérvio",
+    "slovenian": "Esloveno"
+  },
+
+  "home": {
+    "title": "Football Imposter",
+    "tagline": "Todos recebem uma palavra secreta de futebol. Um jogador não.",
+    "howToPlay": "Como jogar",
+    "getStarted": "Começar",
+    "settings": "Definições"
+  },
+
+  "settings": {
+    "title": "Definições",
+    "language": "Idioma",
+    "howToPlay": "Como jogar",
+    "learnRules": "Aprende as regras em 30 segundos",
+    "upgrade": "Atualizar para Pro",
+    "upgradeCta": "Atualizar",
+    "unlockAll": "Desbloqueia todas as categorias + modos extra",
+    "rate": "Avaliar app",
+    "loveReview": "Gostas do jogo? Deixa uma avaliação",
+    "feedback": "Enviar feedback",
+    "shareIdeas": "Reportar erro ou sugerir funcionalidade",
+    "appInfo": "Informações da app",
+    "appVersion": "Versão da app",
+    "chooseLanguage": "Escolher idioma"
+  },
+
+  "language": {
+    "english": "English",
+    "german": "Deutsch"
+  },
+
+  "onboarding": {
+    "skip": "Saltar",
+    "pillTitle": "FOOTBALL IMPOSTER",
+    "title": "Quem é o impostor do futebol?",
+    "body": "Um jogador não conhece a palavra.\nFala, blefa e descobre o impostor.",
+    "player1": "Jogador 1",
+    "player2": "Jogador 2",
+    "player3": "Jogador 3"
+  },
+
+  "onboarding2": {
+    "title": "Modo Palavra Igual",
+    "categoryPlayers": "Categoria: Jogadores",
+    "wordExample": "Messi",
+    "hint": "Fala. Pergunta. Vota.",
+    "unknownWord": "??"
+  },
+
+  "onboarding3": {
+    "title": "Modo Palavra Semelhante",
+    "categoryPlayers": "Categoria: Jogadores",
+    "wordSame": "Messi",
+    "wordSimilar": "Ronaldo",
+    "hint": "Palavra semelhante. Mais difícil de descobrir.",
+    "startGame": "Iniciar jogo"
+  },
+
+  "setup": {
+    "title": "Configuração",
+    "howManyPlayers": "Quantos\njogadores?",
+    "howManyImposters": "Quantos\nimpostores?",
+    "categoriesTitle": "Escolher categorias",
+    "startGame": "Iniciar jogo",
+    "gameMode": "Modo de jogo",
+    "showCategoryToImposter": "Mostrar categoria aos impostores",
+    "selectCategories": "Seleciona pelo menos uma categoria",
+    "allCategories": "Todas as categorias",
+    "categories": "Categorias",
+    "alert": {
+      "selectCategoryTitle": "Seleciona uma categoria",
+      "selectCategoryBody": "Escolhe pelo menos uma categoria para iniciar o jogo."
+    },
+    "mode": {
+      "same": {
+        "title": "Mesma palavra",
+        "desc": "Todos conhecem a palavra. Os impostores não."
+      },
+      "similar": {
+        "title": "Palavra semelhante",
+        "desc": "Todos conhecem a palavra. A dos impostores é diferente."
+      }
+    }
+  },
+
+  "players": {
+    "title": "Jogadores",
+    "player": "Jogador",
+    "countLabel": "Jogadores",
+    "namePlaceholder": "Nome do jogador"
+  },
+
+  "categories": {
+    "title": "Categorias",
+    "selected": "Selecionadas",
+    "all": "Todas",
+    "none": "Nenhuma",
+
+    "activePlayers": "Jogadores ativos",
+    "plPlayers": "Jogadores da Premier League",
+    "legends": "Lendas",
+    "clubs": "Clubes",
+    "managers": "Treinadores",
+    "stadiums": "Estádios",
+    "referees": "Árbitros",
+    "nationalTeams": "Seleções nacionais",
+    "leagues": "Ligas",
+    "iconicMoments": "Momentos icónicos",
+
+    "free": {
+      "restore": "Restaurar compra",
+      "playingWith": "Grátis: a jogar com",
+      "of": "de",
+      "items": "itens",
+      "proUnlocksAll": "Pro desbloqueia todos os itens desta categoria.",
+      "openingPurchase": "A abrir compra…",
+      "unlockPro": "Desbloquear Pro",
+      "storeNotConnectedHint": "Loja não ligada. Tenta novamente mais tarde."
+    },
+
+    "pro": {
+      "active": "Pro ativo"
+    }
+  },
+
+  "imposters": {
+    "title": "Impostores",
+    "random": {
+      "title": "Impostores aleatórios",
+      "range": "",
+      "desc": "Os impostores são escolhidos aleatoriamente."
+    },
+    "neverFirst": {
+      "title": "Primeira ronda mais segura",
+      "desc": "O impostor nunca começa"
+    },
+    "note": {
+      "randomPrefix": "",
+      "randomSuffix": "",
+      "manualPrefix": "",
+      "manualSuffix": "com base em",
+      "players": "jogadores"
+    }
+  },
+
+  "game": {
+    "playersTitle": "Jogadores",
+    "tapNameInstruction": "Toca no teu nome, vê a palavra e passa o telemóvel.",
+    "startingPlayer": "Jogador inicial",
+    "voting": "Votação",
+    "imposter": "IMPOSTOR"
+  },
+
+  "pass": {
+    "title": "Passa o telemóvel",
+    "progress": "Jogador {{seat}} de {{playersCount}}",
+    "whenReady": "Quando o Jogador {{seat}} estiver pronto, toca Revelar.",
+    "tapNext": "Toca Seguinte e passa o telemóvel ao próximo jogador.",
+    "reveal": "Revelar",
+    "nextPlayer": "Próximo jogador",
+    "finish": "Terminar"
+  },
+
+  "reveal": {
+    "title": "Revelação",
+    "secretWord": "Palavra secreta",
+    "hidden": "Oculta",
+    "tapToReveal": "Toca para revelar",
+    "makeSureNoOnesWatching": "Certifica-te de que ninguém está a ver",
+    "gotIt": "Percebi!",
+    "categoryPrefix": "Categoria:"
+  },
+
+  "voting": {
+    "title": "Votação",
+    "howToVote": "Como votar",
+    "revealResults": "Revelar resultados",
+    "tip": "Dica: sê vago — não reveles a palavra.",
+
+    "step1": {
+      "title": "Jogador inicial",
+      "desc": "{{startingLabel}} começa a ronda."
+    },
+    "step2": {
+      "title": "Discussão em grupo",
+      "desc": "À vez, no sentido dos ponteiros do relógio."
+    },
+    "step3": {
+      "title": "Hora de votar",
+      "desc": "Cada jogador dá uma pista. Faz 2–3 voltas."
+    },
+    "step4": {
+      "title": "Fase de revelação",
+      "desc": "Vota nos impostores e revela os resultados."
+    }
+  },
+
+  "results": {
+    "title": "Resultados",
+    "notSet": "Não definido",
+    "imposterWas": "O IMPOSTOR ERA",
+    "impostersWere": "OS IMPOSTORES ERAM",
+    "secretWord": "PALAVRA SECRETA",
+    "playAgain": "Jogar novamente"
+  },
+
+  "billing": {
+    "unlockPro": "Desbloquear Pro",
+    "categoryAccess": "Acesso às categorias",
+    "proUnlocksAll": "Pro desbloqueia todos os itens de todas as categorias. Compra única.",
+    "freeVersion": "Versão gratuita: {{freeCount}} de {{total}}",
+    "proActive": "Pro ativo"
+  },
+
+  "dev": {
+    "resetToFree": "Repor versão gratuita",
+    "clearEntitlement": "Limpar autorização",
+    "storekitResetTip": "Dica: no simulador iOS podes repor compras StoreKit nas Definições."
+  }
+}

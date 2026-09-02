@@ -1,0 +1,260 @@
+{
+  "common": {
+    "continue": "Devam et",
+    "back": "Geri",
+    "next": "İleri",
+    "done": "Bitti",
+    "close": "Kapat",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "notNow": "Şimdi değil",
+    "ok": "Tamam",
+    "yes": "Evet",
+    "no": "Hayır",
+    "loading": "Yükleniyor…",
+    "error": "Bir şeyler ters gitti",
+    "goHome": "Ana ekrana git",
+    "unknown": "??",
+    "add": "Ekle",
+    "remove": "Kaldır",
+    "edit": "Düzenle",
+    "range": "Aralık",
+    "category": "Kategori",
+    "modalTitle": "Pencere",
+    "player": "Oyuncu"
+  },
+
+  "languages": {
+    "english": "İngilizce",
+    "spanish": "İspanyolca",
+    "french": "Fransızca",
+    "german": "Almanca",
+    "italian": "İtalyanca",
+    "portuguese": "Portekizce",
+    "dutch": "Hollandaca",
+    "polish": "Lehçe",
+    "turkish": "Türkçe",
+    "arabic": "Arapça",
+    "serbian": "Sırpça",
+    "slovenian": "Slovence"
+  },
+
+  "home": {
+    "title": "Football Imposter",
+    "tagline": "Herkes gizli bir futbol kelimesi alır. Bir oyuncu almaz.",
+    "howToPlay": "Nasıl Oynanır",
+    "getStarted": "Başla",
+    "settings": "Ayarlar"
+  },
+
+  "settings": {
+    "title": "Ayarlar",
+    "language": "Dil",
+    "howToPlay": "Nasıl Oynanır",
+    "learnRules": "Kuralları 30 saniyede öğren",
+    "upgrade": "Pro’ya yükselt",
+    "upgradeCta": "Yükselt",
+    "unlockAll": "Tüm kategorileri + ek modları aç",
+    "rate": "Uygulamayı değerlendir",
+    "loveReview": "Oyunu sevdin mi? Yorum bırak",
+    "feedback": "Geri bildirim gönder",
+    "shareIdeas": "Hata bildir veya özellik iste",
+    "appInfo": "Uygulama bilgileri",
+    "appVersion": "Uygulama sürümü",
+    "chooseLanguage": "Dil seç"
+  },
+
+  "language": {
+    "english": "English",
+    "german": "Deutsch"
+  },
+
+  "onboarding": {
+    "skip": "Geç",
+    "pillTitle": "FOOTBALL IMPOSTER",
+    "title": "Football Imposter kim?",
+    "body": "Bir oyuncu kelimeyi bilmiyor.\nKonuş, blöf yap ve impostoru ortaya çıkar.",
+    "player1": "Oyuncu 1",
+    "player2": "Oyuncu 2",
+    "player3": "Oyuncu 3"
+  },
+
+  "onboarding2": {
+    "title": "Aynı Kelime Modu",
+    "categoryPlayers": "Kategori: Oyuncular",
+    "wordExample": "Messi",
+    "hint": "Konuş. Sorgula. Oyla.",
+    "unknownWord": "??"
+  },
+
+  "onboarding3": {
+    "title": "Benzer Kelime Modu",
+    "categoryPlayers": "Kategori: Oyuncular",
+    "wordSame": "Messi",
+    "wordSimilar": "Ronaldo",
+    "hint": "Benzer kelime. Yakalamak daha zor.",
+    "startGame": "Oyunu Başlat"
+  },
+
+  "setup": {
+    "title": "Kurulum",
+    "howManyPlayers": "Kaç\noyuncu?",
+    "howManyImposters": "Kaç\nimpostor?",
+    "categoriesTitle": "Kategorileri seç",
+    "startGame": "Oyunu başlat",
+    "gameMode": "Oyun modu",
+    "showCategoryToImposter": "Kategoriyi impostorlara göster",
+    "selectCategories": "En az bir kategori seç",
+    "allCategories": "Tüm kategoriler",
+    "categories": "Kategoriler",
+    "alert": {
+      "selectCategoryTitle": "Kategori seç",
+      "selectCategoryBody": "Oyuna başlamak için en az bir kategori seç."
+    },
+    "mode": {
+      "same": {
+        "title": "Aynı kelime",
+        "desc": "Herkes kelimeyi bilir. Impostorlar bilmez."
+      },
+      "similar": {
+        "title": "Benzer kelime",
+        "desc": "Herkes kelimeyi bilir. Impostorların kelimesi farklıdır."
+      }
+    }
+  },
+
+  "players": {
+    "title": "Oyuncular",
+    "player": "Oyuncu",
+    "countLabel": "Oyuncular",
+    "namePlaceholder": "Oyuncu adı"
+  },
+
+  "categories": {
+    "title": "Kategoriler",
+    "selected": "Seçildi",
+    "all": "Tümü",
+    "none": "Hiçbiri",
+
+    "activePlayers": "Aktif Oyuncular",
+    "plPlayers": "Premier League Oyuncuları",
+    "legends": "Efsaneler",
+    "clubs": "Kulüpler",
+    "managers": "Teknik Direktörler",
+    "stadiums": "Stadyumlar",
+    "referees": "Hakemler",
+    "nationalTeams": "Milli Takımlar",
+    "leagues": "Ligler",
+    "iconicMoments": "İkonik Anlar",
+
+    "free": {
+      "restore": "Satın alımı geri yükle",
+      "playingWith": "Ücretsiz: oynanan",
+      "of": "/",
+      "items": "öğe",
+      "proUnlocksAll": "Pro bu kategorideki tüm öğeleri açar.",
+      "openingPurchase": "Satın alma açılıyor…",
+      "unlockPro": "Pro’yu aç",
+      "storeNotConnectedHint": "Mağaza bağlı değil. Lütfen daha sonra tekrar dene."
+    },
+
+    "pro": {
+      "active": "Pro aktif"
+    }
+  },
+
+  "imposters": {
+    "title": "Impostorlar",
+    "random": {
+      "title": "Rastgele impostorlar",
+      "range": "",
+      "desc": "Impostorlar rastgele seçilir."
+    },
+    "neverFirst": {
+      "title": "Daha güvenli ilk tur",
+      "desc": "Impostor asla ilk olmaz"
+    },
+    "note": {
+      "randomPrefix": "",
+      "randomSuffix": "",
+      "manualPrefix": "",
+      "manualSuffix": "şuna göre:",
+      "players": "oyuncu"
+    }
+  },
+
+  "game": {
+    "playersTitle": "Oyuncular",
+    "tapNameInstruction": "Adına dokun, kelimeni gör ve telefonu ver.",
+    "startingPlayer": "Başlayan oyuncu",
+    "voting": "Oylama",
+    "imposter": "IMPOSTOR"
+  },
+
+  "pass": {
+    "title": "Telefonu ver",
+    "progress": "{{playersCount}} oyuncudan {{seat}}. oyuncu",
+    "whenReady": "{{seat}}. oyuncu hazırsa, Göster’e dokun.",
+    "tapNext": "İleri’ye dokun ve telefonu sonraki oyuncuya ver.",
+    "reveal": "Göster",
+    "nextPlayer": "Sonraki oyuncu",
+    "finish": "Bitir"
+  },
+
+  "reveal": {
+    "title": "Göster",
+    "secretWord": "Gizli kelime",
+    "hidden": "Gizli",
+    "tapToReveal": "Göstermek için dokun",
+    "makeSureNoOnesWatching": "Kimsenin bakmadığından emin ol",
+    "gotIt": "Anladım!",
+    "categoryPrefix": "Kategori:"
+  },
+
+  "voting": {
+    "title": "Oylama",
+    "howToVote": "Nasıl Oylanır",
+    "revealResults": "Sonuçları Göster",
+    "tip": "İpucu: Cevapları belirsiz tut — kelimeyi ele verme.",
+
+    "step1": {
+      "title": "Başlayan Oyuncu",
+      "desc": "{{startingLabel}} turu başlatır."
+    },
+    "step2": {
+      "title": "Grup Tartışması",
+      "desc": "Saat yönünde sırayla konuşun."
+    },
+    "step3": {
+      "title": "Oylama Zamanı",
+      "desc": "Her oyuncu bir ipucu verir. 2–3 tur atın."
+    },
+    "step4": {
+      "title": "Gösterme Aşaması",
+      "desc": "Impostorlar için oy verin ve sonuçları açıklayın."
+    }
+  },
+
+  "results": {
+    "title": "Sonuçlar",
+    "notSet": "Ayarlanmadı",
+    "imposterWas": "IMPOSTOR ŞUYDU",
+    "impostersWere": "IMPOSTORLAR ŞUNLARDI",
+    "secretWord": "GİZLİ KELİME",
+    "playAgain": "Tekrar Oyna"
+  },
+
+  "billing": {
+    "unlockPro": "Pro’yu Aç",
+    "categoryAccess": "Kategori erişimi",
+    "proUnlocksAll": "Pro tüm kategorilerdeki tüm öğeleri açar. Tek seferlik satın alma.",
+    "freeVersion": "Ücretsiz sürüm: {{freeCount}} / {{total}}",
+    "proActive": "Pro aktif"
+  },
+
+  "dev": {
+    "resetToFree": "Ücretsiz sürüme sıfırla",
+    "clearEntitlement": "Yetkiyi temizle",
+    "storekitResetTip": "İpucu: iOS Simülatöründe StoreKit satın alımlarını Ayarlar’dan sıfırlayabilirsin."
+  }
+}
