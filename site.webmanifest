@@ -1,0 +1,17 @@
+{
+  "name": "Football Imposter",
+  "short_name": "Football Imposter",
+  "description": "The party game for football fans",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00e06a",
+  "icons": [
+    {
+      "src": "/support/football-imposter-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
