@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Football Imposter – The Party Game for Football Fans</title>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Barlow:wght@400;500;600;700&display=swap');
+  </style>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background-color: #f5f4f0;
+      color: #1a1a18;
+      font-family: "Barlow", sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #ffffff;
+      border-bottom: 1px solid #e2e0d9;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      padding: 0 32px;
+    }
+
+    .nav-content {
+      max-width: 1400px;
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+      color: #1a1a18;
+      letter-spacing: -0.3px;
+    }
+
+    .nav-logo img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .nav-link {
+      font-size: 14px;
+      color: #6b6860;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav-link:hover {
+      color: #1a1a18;
+    }
+
+    .nav-download {
+      background: #1a1a18;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .nav-download:hover {
+      background: #2d2d2a;
+      transform: translateY(-1px);
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #06110a 0%, #0a1810 100%);
+      color: white;
+      padding: 100px 32px;
+      text-align: center;
+    }
+
+    .hero-content {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .hero-eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      color: #00e06a;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      font-family: "Barlow Condensed", sans-serif;
+      font-size: 64px;
+      line-height: 1.15;
+      margin-bottom: 24px;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+    }
+
+    .hero p {
+      font-size: 17px;
+      color: rgba(255, 255, 255, 0.55);
+      max-width: 520px;
+      margin: 0 auto 40px;
+      line-height: 1.6;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: white;
+      color: #1a1a18;
+      padding: 14px 28px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: center;
+      transition: all 0.2s;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: white;
+      padding: 14px 28px;
+      border: 2px solid white;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: center;
+      transition: all 0.2s;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateY(-2px);
+    }
+
+    section {
+      background: #f5f4f0;
+      padding: 96px 32px;
+    }
+
+    section.white {
+      background: white;
+    }
+
+    .section-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
+    .section-eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      color: #00a84f;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .section-header h2 {
+      font-family: "Barlow Condensed", sans-serif;
+      font-size: 42px;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: #1a1a18;
+      text-transform: uppercase;
+    }
+
+    .section-subtitle {
+      font-size: 16px;
+      color: #6b6860;
+      max-width: 560px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 48px;
+      margin-bottom: 0;
+    }
+
+    .step {
+      text-align: left;
+    }
+
+    .step-number {
+      font-family: "Barlow Condensed", sans-serif;
+      font-size: 80px;
+      font-weight: 900;
+      color: #00a84f;
+      opacity: 0.25;
+      line-height: 1;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+    }
+
+    .step h3 {
+      font-family: "Barlow Condensed", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #1a1a18;
+      text-transform: uppercase;
+    }
+
+    .step p {
+      font-size: 15px;
+      color: #6b6860;
+      line-height: 1.7;
+    }
+
+    .stats-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      background: white;
+      border-top: 1px solid #e2e0d9;
+      border-bottom: 1px solid #e2e0d9;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .stat {
+      padding: 48px 32px;
+      text-align: center;
+      border-right: 1px solid #e2e0d9;
+    }
+
+    .stat:last-child {
+      border-right: none;
+    }
+
+    .stat-number {
+      font-family: "Barlow Condensed", sans-serif;
+      font-size: 48px;
+      font-weight: 900;
+      color: #1a1a18;
+      line-height: 1;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
+
+    .stat-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: #6b6860;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .categories-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .category-pill {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      background: #e2e0d9;
+      color: #1a1a18;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .category-pill:hover {
+      background: #d4d1ca;
+    }
+
+    .category-pill.free {
+      background: #00a84f;
+      color: white;
+    }
+
+    .category-pill.free:hover {
+      background: #008a3e;
+    }
+
+    .pricing-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    .pricing-card {
+      border: 2px solid #e2e0d9;
+      border-radius: 12px;
+      padding: 40px 32px;
+      background: white;
+      text-align: center;
+      position: relative;
+      transition: all 0.2s;
+    }
+
+    .pricing-card:hover {
+      border-color: #d4d1ca;
+    }
+
+    .pricing-card.premium {
+      border-color: #00a84f;
+      background: linear-gradient(135deg, #f9faf8 0%, #f5f4f0 100%);
+    }
+
+    .pricing-badge {
+      position: absolute;
+      top: -12px;
+      right: 20px;
+      background: #00a84f;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .pricing-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #1a1a18;
+      text-transform: uppercase;
+    }
+
+    .pricing-price {
+      font-family: "Barlow Condensed", sans-serif;
+      font-size: 48px;
+      font-weight: 900;
+      color: #1a1a18;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    .pricing-subprice {
+      font-size: 12px;
+      color: #999;
+      margin-bottom: 24px;
+    }
+
+    .pricing-features {
+      text-align: left;
+      margin-bottom: 24px;
+    }
+
+    .pricing-features li {
+      font-size: 13px;
+      color: #6b6860;
+      margin-bottom: 10px;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .pricing-features li:before {
+      content: "✓ ";
+      color: #00a84f;
+      font-weight: 700;
+      margin-right: 8px;
+    }
+
+    .btn-pricing {
+      display: block;
+      width: 100%;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: center;
+      border: 2px solid #e2e0d9;
+      background: white;
+      color: #1a1a18;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-pricing:hover {
+      border-color: #d4d1ca;
+      background: #f5f4f0;
+    }
+
+    .pricing-card.premium .btn-pricing {
+      background: #00a84f;
+      color: white;
+      border-color: #00a84f;
+    }
+
+    .pricing-card.premium .btn-pricing:hover {
+      background: #008a3e;
+      border-color: #008a3e;
+    }
+
+    footer {
+      background: #f5f4f0;
+      border-top: 1px solid #e2e0d9;
+      padding: 32px;
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+    }
+
+    .footer-links {
+      margin-bottom: 12px;
+    }
+
+    .footer-links a {
+      color: #6b6860;
+      text-decoration: none;
+      margin: 0 4px;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: #1a1a18;
+    }
+
+    .footer-separator {
+      color: #ddd;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 900px) {
+      nav {
+        height: auto;
+        padding: 12px 32px;
+      }
+
+      .nav-right {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .btn-primary, .btn-secondary {
+        width: 100%;
+      }
+
+      .steps {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+
+      .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .stat {
+        border-right: 1px solid #e2e0d9;
+        border-bottom: 1px solid #e2e0d9;
+      }
+
+      .stat:nth-child(2n) {
+        border-right: none;
+      }
+
+      .stat:nth-last-child(-n+2) {
+        border-bottom: none;
+      }
+
+      .section-header h2 {
+        font-size: 32px;
+      }
+
+      .pricing-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        padding: 12px 16px;
+      }
+
+      .nav-logo {
+        font-size: 13px;
+      }
+
+      .nav-right {
+        gap: 12px;
+      }
+
+      .nav-link {
+        display: none;
+      }
+
+      .hero {
+        padding: 60px 16px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .hero p {
+        font-size: 15px;
+      }
+
+      section {
+        padding: 60px 16px;
+      }
+
+      .section-header {
+        margin-bottom: 40px;
+      }
+
+      .section-header h2 {
+        font-size: 28px;
+      }
+
+      .stats-container {
+        grid-template-columns: 1fr;
+      }
+
+      .stat {
+        border-right: none;
+        border-bottom: 1px solid #e2e0d9;
+        padding: 32px 16px;
+      }
+
+      .stat:last-child {
+        border-bottom: none;
+      }
+
+      .step-number {
+        font-size: 48px;
+      }
+
+      .categories-grid {
+        gap: 8px;
+      }
+
+      .category-pill {
+        padding: 8px 14px;
+        font-size: 12px;
+      }
+
+      .pricing-card {
+        padding: 32px 20px;
+      }
+
+      footer {
+        padding: 24px 16px;
+        font-size: 11px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <a href="/" class="nav-logo">
+        <img src="/support/football-imposter-icon.png" alt="Football Imposter">
+        <span>Football Imposter</span>
+      </a>
+      <div class="nav-right">
+        <a href="/support" class="nav-link">Support</a>
+        <a href="/privacy" class="nav-link">Privacy</a>
+        <a href="https://apps.apple.com/app/id6807792487" class="nav-download">Download</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-content">
+      <div class="hero-eyebrow">Available on iOS</div>
+      <h1>The football party game your mates will love</h1>
+      <p>Pass the phone around. Everyone gets a secret football word — except the imposter. Talk, bluff, and vote to find who doesn't know the word.</p>
+      <div class="hero-buttons">
+        <a href="https://apps.apple.com/app/id6807792487" class="btn-primary">Download on App Store</a>
+        <a href="/support" class="btn-secondary">How to Play</a>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-eyebrow">How it works</div>
+        <h2>Three simple steps</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Pick a category</h3>
+          <p>Choose from 42 categories — players, leagues, clubs, nations and more. Active Players is always free.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Pass the phone</h3>
+          <p>Each player secretly checks their word. One person gets nothing — or a similar word to throw you off.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Find the imposter</h3>
+          <p>Discuss, bluff, and vote. Can you spot who doesn't know the word?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-container">
+    <div class="stat">
+      <div class="stat-number">42</div>
+      <div class="stat-label">Categories</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">2,500+</div>
+      <div class="stat-label">Words & Names</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">3–8</div>
+      <div class="stat-label">Players Per Game</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">Free</div>
+      <div class="stat-label">To Download</div>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-eyebrow">What's inside</div>
+        <h2>42 categories. Something for every football fan.</h2>
+        <div class="section-subtitle">From current stars to legends, leagues to nations, positions to special themes.</div>
+      </div>
+      <div class="categories-grid">
+        <span class="category-pill free">⭐ Active Players</span>
+        <span class="category-pill">Premier League</span>
+        <span class="category-pill">La Liga</span>
+        <span class="category-pill">Serie A</span>
+        <span class="category-pill">Bundesliga</span>
+        <span class="category-pill">Ligue 1</span>
+        <span class="category-pill">Legends</span>
+        <span class="category-pill">Clubs</span>
+        <span class="category-pill">Managers</span>
+        <span class="category-pill">Stadiums</span>
+        <span class="category-pill">Referees</span>
+        <span class="category-pill">National Teams</span>
+        <span class="category-pill">Leagues</span>
+        <span class="category-pill">Left-Footed</span>
+        <span class="category-pill">Ballon d'Or</span>
+        <span class="category-pill">African Legends</span>
+        <span class="category-pill">Copa America</span>
+        <span class="category-pill">One Club Men</span>
+        <span class="category-pill">Bald Icons</span>
+        <span class="category-pill">Speed Demons</span>
+        <span class="category-pill">Club Hoppers</span>
+        <span class="category-pill">Wasted Talent</span>
+        <span class="category-pill">Afro Legends</span>
+        <span class="category-pill">Two Countries</span>
+        <span class="category-pill">Player Managers</span>
+        <span class="category-pill">100M+ Transfers</span>
+        <span class="category-pill">Brazil</span>
+        <span class="category-pill">Argentina</span>
+        <span class="category-pill">France</span>
+        <span class="category-pill">England</span>
+        <span class="category-pill">Spain</span>
+        <span class="category-pill">Germany</span>
+        <span class="category-pill">Italy</span>
+        <span class="category-pill">Portugal</span>
+        <span class="category-pill">Croatia</span>
+        <span class="category-pill">Netherlands</span>
+        <span class="category-pill">Belgium</span>
+        <span class="category-pill">Uruguay</span>
+        <span class="category-pill">Attackers</span>
+        <span class="category-pill">Midfielders</span>
+        <span class="category-pill">Defenders</span>
+        <span class="category-pill">Goalkeepers</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="white">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-eyebrow">Pricing</div>
+        <h2>Simple, fair pricing.</h2>
+      </div>
+      <div class="pricing-container">
+        <div class="pricing-card">
+          <div class="pricing-title">Free</div>
+          <div class="pricing-price">€0</div>
+          <ul class="pricing-features">
+            <li>Active Players category</li>
+            <li>200 current players</li>
+            <li>All game modes</li>
+            <li>3–8 players</li>
+          </ul>
+          <a href="https://apps.apple.com/app/id6807792487" class="btn-pricing">Download Free</a>
+        </div>
+        <div class="pricing-card premium">
+          <div class="pricing-badge">Best Value</div>
+          <div class="pricing-title">Lifetime</div>
+          <div class="pricing-price">€3.99</div>
+          <div class="pricing-subprice">one-time purchase</div>
+          <div style="font-size: 12px; color: #999; margin-bottom: 24px;">or €0.99/week</div>
+          <ul class="pricing-features">
+            <li>All 42 categories</li>
+            <li>2,500+ words & names</li>
+            <li>All game modes</li>
+            <li>Future categories included</li>
+          </ul>
+          <a href="https://apps.apple.com/app/id6807792487" class="btn-pricing">Get Lifetime Access</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="/support">Support</a>
+      <span class="footer-separator">·</span>
+      <a href="/privacy">Privacy</a>
+    </div>
+    <div>© 2026 Football Imposter</div>
+  </footer>
+</body>
+</html>
